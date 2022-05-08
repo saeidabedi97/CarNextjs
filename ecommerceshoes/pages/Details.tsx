@@ -9,7 +9,7 @@ export default function Details(){
                 <CarSelectionButton onClick={() => setShow("BlueContainer")} >BMW M8 COMPETITION </CarSelectionButton>
                 <CarSelectionButton2 onClick={() => setShow("PurpleContainer")} >BMW M850i xDRIVE </CarSelectionButton2>
             </CarSelectionContainer>
-            <BlueContainer className={show==="BlueContainer"?"sendfront":"sendback"} as={motion.div} initial={{opacity:0}} animate={{opacity:1}} transition={{duration:2, delay:2}}>
+            <BlueContainer className={show==="BlueContainer"?"sendfront":"sendback"} as={motion.div} initial={{opacity:0}} animate={{opacity:1}} transition={{duration:2, delay:1}}>
                 <BlueContainerHeader>BMW M8 Competition</BlueContainerHeader>
                 <BlueSubtitle>Maximum dynamism and exclusivity</BlueSubtitle>
                 <BlueListContainer>
