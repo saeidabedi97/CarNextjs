@@ -1,6 +1,5 @@
-import {Survey} from './services/data'
+import { Survey } from "./services/data";
 
-declare global{
-    var survey:Survey[]; 
+declare global {
+  var survey: Survey[];
 }
-
